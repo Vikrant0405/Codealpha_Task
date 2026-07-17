@@ -55,7 +55,7 @@ A Python application that helps users manage their stock investments by calculat
 **Technologies Used**
 
 - Python
-![Stock Portfolio Main](./Stock-Portfolio-Tracker/screenshots/main.png)
+![Stock Portfolio Main](./Codealpha Stock portfolio tracker/Screenshot/main.png)
 ---
 
 ## 🤖 Task 2 – AI Chatbot

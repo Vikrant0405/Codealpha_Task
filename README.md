@@ -1,10 +1,17 @@
 # 🚀 CodeAlpha Python Internship Projects
 
-Welcome to my **CodeAlpha Python Internship** repository. This repository contains all the tasks completed during my internship at **CodeAlpha**. Each project demonstrates practical Python programming concepts, problem-solving skills, and real-world applications.
+![Python](https://img.shields.io/badge/Python-3.x-blue?style=for-the-badge&logo=python)
+![CodeAlpha](https://img.shields.io/badge/Internship-CodeAlpha-orange?style=for-the-badge)
+![Status](https://img.shields.io/badge/Status-Completed-success?style=for-the-badge)
+![GitHub](https://img.shields.io/badge/GitHub-Projects-black?style=for-the-badge&logo=github)
+
+Welcome to my **CodeAlpha Python Internship** repository.
+
+This repository contains all the tasks completed during my **CodeAlpha Python Programming Internship**. These projects demonstrate my Python programming skills, GUI development using Tkinter, automation techniques, and problem-solving abilities.
 
 ---
 
-## 👨‍💻 Intern Details
+# 👨‍💻 Intern Details
 
 - **Name:** Vikrant Hanumant Kharke
 - **Internship:** CodeAlpha Python Programming Internship
@@ -16,83 +23,142 @@ Welcome to my **CodeAlpha Python Internship** repository. This repository contai
 # 📂 Repository Structure
 
 ```
-CodeAlpha/
+CodeAlpha
 │
-├── Task-1-Stock-Portfolio-Tracker/
-│   ├── source code
+├── CodeAlpha-Stock-Portfolio-Tracker
+│   ├── Screenshot
 │   ├── README.md
-│   └── screenshots
+│   └── codealpha_stock_portfolio_Tracker.py
 │
-├── Task-2-Chatbot/
-│   ├── source code
+├── CodeAlpha-Chatbot
+│   ├── Screenshot
 │   ├── README.md
-│   └── screenshots
+│   └── codealpha_chatbot.py
 │
-├── Task-3-Automation-with-Python/
-│   ├── source code
+├── CodeAlpha-Automation-with-Python-Scripts
+│   ├── Screenshot
 │   ├── README.md
-│   └── screenshots
+│   └── codealpha_email_extract.py
 │
 └── README.md
 ```
 
 ---
 
-# 📌 Projects Included
-
-## 📈 Task 1 – Stock Portfolio Tracker
-
-A Python application that helps users manage their stock investments by calculating portfolio values based on stock prices.
-
-### Features
-
-- Add stocks
-- Update portfolio
-- Calculate total investment
-- View portfolio summary
-- Simple command-line interface
-
-**Technologies Used**
-
-- Python
-![Stock Portfolio Main](./Codealpha Stock portfolio tracker/Screenshot/main.png)
-#### Main Dashboard
-![Stock Portfolio Main](./Task-1-Stock-Portfolio-Tracker/screenshots/main.png)
----
-
-## 🤖 Task 2 – AI Chatbot
-
-A rule-based chatbot developed in Python that responds to user queries using predefined conversation logic.
-
-### Features
-
-- Interactive conversation
-- Greeting responses
-- General question answering
-- User-friendly interface
-
-**Technologies Used**
-
-- Python
+# 📌 Projects
 
 ---
 
-## ⚙️ Task 3 – Automation with Python Scripts
+# 📈 Task 1 – Stock Portfolio Tracker
 
-A Python automation tool designed to perform repetitive tasks efficiently.
+A Python application that allows users to manage stock investments and calculate portfolio values.
 
-### Features
+## Features
 
-- Automates repetitive operations
-- Easy-to-use interface
-- Saves time and effort
-- Customizable workflow
+- Add Stocks
+- Remove Stocks
+- Portfolio Summary
+- Investment Value Calculation
+- User Profile
+- Simple GUI
 
-**Technologies Used**
+## Technologies Used
 
 - Python
+- Tkinter
+
+## Screenshots
+
+### Main Dashboard
+
+![Main](./CodeAlpha-Stock-Portfolio-Tracker/Screenshot/main.png)
+
+### Add Stock
+
+![Add](./CodeAlpha-Stock-Portfolio-Tracker/Screenshot/add.png)
+
+### Remove Stock
+
+![Remove](./CodeAlpha-Stock-Portfolio-Tracker/Screenshot/remove.png)
+
+### Profile
+
+![Profile](./CodeAlpha-Stock-Portfolio-Tracker/Screenshot/profile.png)
+
+### Portfolio Value
+
+![Portfolio Value](./CodeAlpha-Stock-Portfolio-Tracker/Screenshot/profile_value.png)
+
+---
+
+# 🤖 Task 2 – AI Chatbot
+
+A rule-based chatbot developed in Python using Tkinter.
+
+## Features
+
+- Interactive Conversation
+- Greeting Responses
+- Quiz Game
+- Number Guessing Game
+- Rock Paper Scissors
+- Exit Menu
+
+## Technologies Used
+
+- Python
+- Tkinter
+
+## Screenshots
+
+### Home
+
+![Home](./CodeAlpha-Chatbot/Screenshot/Home.png)
+
+### Conversation
+
+![Conversation](./CodeAlpha-Chatbot/Screenshot/conversation.png)
+
+### Quiz Game
+
+![Quiz](./CodeAlpha-Chatbot/Screenshot/Quiz%20game.png)
+
+### Number Guessing
+
+![Guess](./CodeAlpha-Chatbot/Screenshot/number%20guessing%20game.png)
+
+### Rock Paper Scissors
+
+![RPS](./CodeAlpha-Chatbot/Screenshot/rps_exit.png)
+
+---
+
+# ⚙️ Task 3 – Automation with Python Scripts
+
+A Python automation tool that extracts email addresses using Regular Expressions.
+
+## Features
+
+- Extract Email Addresses
+- Regular Expression Based
+- Fast Processing
+- User Friendly GUI
+
+## Technologies Used
+
+- Python
+- Tkinter
 - Regular Expressions (Regex)
-- Tkinter (if GUI version)
+
+## Screenshots
+
+### Main Window
+
+![Main](./CodeAlpha-Automation-with-Python-Scripts/Screenshot/output.png)
+
+### Dialog Box
+
+![Dialog](./CodeAlpha-Automation-with-Python-Scripts/Screenshot/dialog%20box.png)
 
 ---
 
@@ -101,51 +167,82 @@ A Python automation tool designed to perform repetitive tasks efficiently.
 - Python 3
 - Tkinter
 - Regular Expressions
-- File Handling
 - Object-Oriented Programming
-- Git & GitHub
+- File Handling
+- Git
+- GitHub
 
 ---
 
-# 💻 How to Run
+# 💻 Installation
 
-1. Clone the repository
+Clone this repository
 
 ```bash
 git clone https://github.com/Vikrant0405/CodeAlpha.git
 ```
 
-2. Open the desired task folder.
-
-3. Run the Python file.
+Go to the project directory
 
 ```bash
-python filename.py
+cd CodeAlpha
+```
+
+---
+
+# ▶ Run Projects
+
+### Stock Portfolio Tracker
+
+```bash
+python codealpha_stock_portfolio_Tracker.py
+```
+
+### AI Chatbot
+
+```bash
+python codealpha_chatbot.py
+```
+
+### Automation Tool
+
+```bash
+python codealpha_email_extract.py
 ```
 
 ---
 
 # 🎯 Learning Outcomes
 
-During this internship, I improved my skills in:
+During this internship, I enhanced my skills in:
 
 - Python Programming
-- Problem Solving
+- GUI Development using Tkinter
 - Automation
+- Regular Expressions
+- Problem Solving
 - Git & GitHub
-- Project Development
-- Code Organization
+- Project Organization
+- Object-Oriented Programming
 
 ---
+
+# 📚 Internship Tasks
+
+| Task | Project | Status |
+|------|---------|--------|
+| Task 1 | Stock Portfolio Tracker | ✅ Completed |
+| Task 2 | AI Chatbot | ✅ Completed |
+| Task 3 | Automation with Python | ✅ Completed |
 
 ---
 
 # 🤝 Connect With Me
 
-**GitHub**
+### GitHub
 
 https://github.com/Vikrant0405
 
----
+If you like these projects, please ⭐ Star this repository.
 
-## ⭐ If you found these projects helpful, don't forget to Star this repository!
+Happy Coding! 🚀
